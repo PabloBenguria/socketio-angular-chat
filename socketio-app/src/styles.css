@@ -1,0 +1,32 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body { 
+	font: 13px Helvetica, Arial; 
+	background: #1e5799; 
+}
+
+#messages { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#messages li { 
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd) { 
+	background: #eee; 
+	color: #000;
+}
+
+#messages { 
+	margin-bottom: 40px; 
+}
